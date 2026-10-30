@@ -100,8 +100,6 @@ I installed Oracle VirtualBox on my Kali Linux host to provide the virtualizatio
 
 VirtualBox allows me to create, configure, and operate virtual machines independently of the host environment.
 
-**Evidence:** `screenshots/02_virtualbox_installed.png`
-
 ## 2. Creating the NAT Network
 
 I created a custom NAT Network in VirtualBox to provide a dedicated private network for the lab.
@@ -116,16 +114,13 @@ DHCP:         Disabled
 
 Using a NAT Network allows connected virtual machines to communicate within the virtual network while supporting outbound connectivity.
 
-**Evidence:** `screenshots/03_nat_network.png`
+**Evidence:** `screenshot/01_nat_network.png.png`
 
 ## 3. Importing Kali Linux
 
 I downloaded and imported the prebuilt Kali Linux 2026.2 VirtualBox image.
 
 The virtual machine was configured with 2048 MB of RAM.
-
-**Evidence:** `screenshots/04_kali_download.png`  
-`Screenshots/05_kali_imported.png`
 
 ## 4. Virtual Network Adapter Configuration
 
@@ -142,7 +137,7 @@ Disabled
 
 This configuration keeps the guest connected to the intended lab network.
 
-**Evidence:** `screenshots/06_network_adapter.png`
+**Evidence:** `screenshot/02_network_adapter.png`
 
 ## 5. Clipboard and Drag-and-Drop Configuration
 
@@ -155,7 +150,7 @@ Drag and Drop:    Bidirectional
 
 These settings are intended to make file and text transfer between the host and guest more convenient.
 
-**Evidence:** `screenshots/07_clipboard_dragdrop.png`
+**Evidence:** `screenshot/03_clipboard_dragdrop.png`
 
 ## 6. Shared Folder Configuration
 
@@ -176,7 +171,7 @@ The expected guest mount location is:
 
 This provides convenient access to downloaded lab resources from inside the virtual machine.
 
-**Evidence:** `screenshots/08_shared_folder.png`
+**Evidence:** `screenshot/05_shared_folder.png`
 
 ## 7. Static IPv4 Configuration
 
@@ -231,7 +226,7 @@ The expected configuration was displayed:
 eth0    UP    10.0.0.2/24
 ```
 
-**Evidence:** `screenshots/10a_kali_ip.png`
+**Evidence:** `screenshot/4a_kali_ip.png`
 
 ## 8. Network and DNS Connectivity Testing
 
@@ -253,7 +248,7 @@ After configuring the DNS servers, this test also completed successfully.
 
 These tests confirmed that the virtual machine could reach an external IP address and resolve domain names.
 
-**Evidence:** `screenshots/10b_kali_internet_test.png`
+**Evidence:** `screenshot/4b_kali_internet_test.png`
 
 ## 9. Creating a Baseline Snapshot
 
@@ -265,11 +260,11 @@ Snapshot Name: Kali-Initial-Working-Setup
 
 The snapshot provides a recovery point before future experiments and configuration changes.
 
-**Evidence:** `screenshots/11_kali_snapshot.png`
+**Evidence:** `screenshot/7_kali_snapshot.png`
 
 ---
 
-# 🔎 Verification Results
+#  Verification Results
 
 | Verification | Command or Method | Result |
 |---|---|---|
@@ -283,7 +278,7 @@ The snapshot provides a recovery point before future experiments and configurati
 
 ---
 
-# 🐛 Challenges and Troubleshooting
+#  Challenges and Troubleshooting
 
 ## DNS Resolution Failure
 
@@ -318,7 +313,7 @@ This troubleshooting experience helped me understand the difference between IP c
 
 ---
 
-# 📚 Key Learning Outcomes
+#  Key Learning Outcomes
 
 Through this project, I gained practical experience in:
 
@@ -348,7 +343,7 @@ Creating a baseline recovery point before performing future security experiments
 
 ---
 
-# 🚀 Future Lab Improvements
+#  Future Lab Improvements
 
 I plan to expand this environment with additional virtual machines and practical exercises, including:
 
@@ -361,7 +356,7 @@ I plan to expand this environment with additional virtual machines and practical
 
 ---
 
-# 🔐 Security and Ethical Use
+#  Security and Ethical Use
 
 This laboratory is intended for education and authorized cybersecurity testing.
 
@@ -369,7 +364,7 @@ All reconnaissance, scanning, vulnerability assessment, and penetration-testing 
 
 ---
 
-# 🧰 Tools and Resources
+#  Tools and Resources
 
 - [Kali Linux](https://www.kali.org/get-kali/)
 - [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads)
@@ -377,7 +372,7 @@ All reconnaissance, scanning, vulnerability assessment, and penetration-testing 
 
 ---
 
-# 👩‍💻 Author
+#  Author
 
 **Aylia Zulfiqar**
 
@@ -387,7 +382,7 @@ GitHub: [@ayliazulfiqar](https://github.com/ayliazulfiqar)
 
 ---
 
-## 📌 Project Information
+##  Project Information
 
 | Field | Details |
 |---|---|
