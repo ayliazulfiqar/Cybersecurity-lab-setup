@@ -260,7 +260,7 @@ Snapshot Name: Kali-Initial-Working-Setup
 
 The snapshot provides a recovery point before future experiments and configuration changes.
 
-**Evidence:** `screenshot/7_kali_snapshot.png`
+**Evidence:** ![Kali snapshot](./screenshot/7_kali_snapshot.png)
 
 ---
 
