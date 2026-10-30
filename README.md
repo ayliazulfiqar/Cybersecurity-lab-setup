@@ -115,7 +115,8 @@ DHCP:         Disabled
 Using a NAT Network allows connected virtual machines to communicate within the virtual network while supporting outbound connectivity.
 
 **Evidence:** 
-![nat network](./screenshot/01_nat_network.png)
+
+![nat network](./screenshot/01_nat_network.png.png)
 
 ## 3. Importing Kali Linux
 
@@ -138,7 +139,9 @@ Disabled
 
 This configuration keeps the guest connected to the intended lab network.
 
-**Evidence:** `screenshot/02_network_adapter.png`
+**Evidence:** 
+
+![network adapter](./screenshot/02_network_adapter.png)
 
 ## 5. Clipboard and Drag-and-Drop Configuration
 
@@ -152,6 +155,7 @@ Drag and Drop:    Bidirectional
 These settings are intended to make file and text transfer between the host and guest more convenient.
 
 **Evidence:** 
+
 ![clipboard dragdrop](./screenshot/03_clipboard_dragdrop.png)
 
 ## 6. Shared Folder Configuration
@@ -174,6 +178,7 @@ The expected guest mount location is:
 This provides convenient access to downloaded lab resources from inside the virtual machine.
 
 **Evidence:** 
+
 ![shared folder ](./screenshot/05_shared_folder.png)
 
 
@@ -230,6 +235,7 @@ The expected configuration was displayed:
 eth0    UP    10.0.0.2/24
 ```
 **Evidence:** 
+
 ![ip ](./screenshot/4a_kali_ip.png)
 
 ## 8. Network and DNS Connectivity Testing
@@ -253,6 +259,7 @@ After configuring the DNS servers, this test also completed successfully.
 These tests confirmed that the virtual machine could reach an external IP address and resolve domain names.
 
 **Evidence:** 
+
 ![internet test](./screenshot/4b_kali_internet_test.png)
 
 ## 9. Creating a Baseline Snapshot
@@ -266,6 +273,7 @@ Snapshot Name: Kali-Initial-Working-Setup
 The snapshot provides a recovery point before future experiments and configuration changes.
 
 **Evidence:** 
+
 ![Kali snapshot](./screenshot/7_kali_snapshot.png)
 
 ---
